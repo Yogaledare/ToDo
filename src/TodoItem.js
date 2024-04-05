@@ -4,10 +4,10 @@ export const TodoItem = ({todo, toggleComplete, removeItem}) => {
 
 
     return (
-        <div className={'list-group-item'}>
+        <div className={`list-group-item ${todo.completed ? 'bg-dark-subtle' : ''}`}>
             <div className={'d-flex justify-content-between align-items-center'}>
                 <div className={'me-auto pe-3'} style={{maxWidth: '80%'}}>
-                    <div className={`${todo.completed ? 'text-decoration-line-through' : ''}`}>
+                    <div className={`${todo.completed ? 'text-decoration-line-through ' : ''}`}>
                         {todo.text}
                     </div>
                 </div>

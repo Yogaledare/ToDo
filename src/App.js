@@ -1,6 +1,7 @@
 import './App.css';
 import TodoList from './TodoList';
 import {useState} from "react";
+import AddTodoForm from "./AddTodoForm";
 
 function App() {
 
@@ -34,6 +35,12 @@ function App() {
         let updated = todos.filter(todo => todo.id !== id);
         setTodos(updated); 
     }
+    
+    
+    const addTodo = (text) => {
+        let t = {id: Date.now(), text: text, completed: false};
+        setTodos([...todos, t]); 
+    }
 
 
     return (
@@ -45,6 +52,9 @@ function App() {
                         <p> this is a header</p>
                     </header>
 
+                    <AddTodoForm
+                        addTodo={addTodo}
+                    ></AddTodoForm>
                     <TodoList todos={todos} toggleComplete={toggleComplete} removeItem={removeItem}></TodoList>
                 </div>
             </div>

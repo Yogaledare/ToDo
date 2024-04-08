@@ -1,70 +1,46 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**ToDo list** 
 
-## Available Scripts
+Övningen består i att skapa en applikation som skapar en inköpslista.
 
-In the project directory, you can run:
+Användaren ska ha möjlighet att skriva in olika saker som ska inhandlas som sedan läggs till i listan.
 
-### `npm start`
+1. Skapa en html sida där användaren har möjlighet att skriva in en vara som ska läggas till listan i ett input fält.
+1. Skapa en knapp som lägger till varan i listan.
+1. När varan har lagts till ska man ha möjlighet att markera varan som inköpt genom att klicka på varan.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+   Texten blir då överstruken samt elementet ändrar bakgrundsfärg.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+4. Det ska gå att ångra att varan blev tillagd.
 
-### `npm test`
+   Texten återgår då från överstruken till normal samt elementet återfår sin ursprungliga färg.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+5. Det ska även finnas en möjlighet att ta bort varan helt från listan.
 
-### `npm run build`
+Använd er gärna av Bootstrap och av era CSS kunskaper för att styla applikationen, experimentera!
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+HTML CSS samt JavaScript filerna ska ligga i olika dokument!
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Extra funktionalitet  (helt valfritt)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Spara undan inköpslistan persistent
 
-### `npm run eject`
+När man skapar upp en ny lista kan man välja utseende eller liknande Markera/Avmarkera alla varor
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Hantera flera inköpslistor
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Flytta saker mellan listor
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Går givetvis att bygga ut applikationen för ytterligare funktionalitet. Extra 
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+**Extra (Valfritt)** 
 
-## Learn More
+Flera övningar: <https://www.w3resource.com/javascript-exercises/> <https://javascript30.com/> 
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+<https://open.kattis.com/> <https://practity.com/582-2/> [https://edabit.com/challenges/javascript#](https://edabit.com/challenges/javascript)! <https://exercism.io/tracks/javascript/exercises> 
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Välj efter egen nivå! Men se till att utmana er själva! 
 
-### Code Splitting
+För de som redan jobbat med Javascript börja gärna titta på något av ramverken i frontend tex React, Angular eller Vue. Men rekommenderar enbart det för de som redan känner att de behärskar grunderna i Javascript. 
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Lycka till!

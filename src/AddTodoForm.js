@@ -2,8 +2,6 @@
 
 
 const AddTodoForm = ({addTodo}) => {
-
-
     const [text, setText] = useState('');
 
     const handleSubmit = (e) => {
